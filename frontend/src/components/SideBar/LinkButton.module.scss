@@ -1,0 +1,20 @@
+.containerLink {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  svg {
+    background-color: #bfbfbf;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+}
+  p {
+    margin-left: 1rem;
+  }
+}

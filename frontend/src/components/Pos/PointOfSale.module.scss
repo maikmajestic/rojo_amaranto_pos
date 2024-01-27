@@ -1,0 +1,124 @@
+.posContainer {
+  background-color: #3E4048;
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  input, textarea {
+    color: #fff;
+  }
+  textarea::after {
+    color: #fff;
+  }
+  button {
+    width: 100%;
+  }
+}
+
+.posOrderContent {
+  min-height: 60vh;
+}
+
+.posHeader {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 84px;
+  padding: 0 2em;
+  svg {
+    margin-right: 0.5em;
+  }
+}
+
+.posOrderTitle {
+  padding: 1em;
+}
+
+.posOrderHeading {
+  color: #fff;
+}
+
+.posFooter {
+  padding: 1em;
+}
+
+.posBody {
+  display: flex;
+  align-items: center;
+  padding: 0.3em 1em;
+}
+
+.orderTitle {
+  text-transform: capitalize;
+  width: 60%;
+  span {
+    color: gray;
+    display: block;
+  }
+}
+
+.orderQnt {
+  justify-content: center;
+  width: 10%!important;
+}
+
+.orderPrice {
+  text-align: end;
+  width: 30%!important;
+}
+
+.prices, .totalPrice {
+  display: block;
+  text-align: end;
+}
+
+.totalPrice {
+  font-weight: 700!important;
+}
+
+.priceTag p{
+  color: #fff!important;
+}
+
+
+.posPaymentWrapper {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.posPaymentTitle, .posPaymentSubtitle {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.posPaymentSubtitle {
+  margin-left: 2em;
+}
+
+.posDelivery p {
+  color: #fff;
+}
+
+.paymentLabel {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem!important;
+  display: block;
+}
+
+.paymentSelect {
+  margin-bottom: 2rem;
+}
+
+.placeholderSale {
+  display: flex;
+  padding: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.formDateInput {
+  background-color: #3A3D43!important;
+  border: 1px solid #000;
+  width: 100%;
+}

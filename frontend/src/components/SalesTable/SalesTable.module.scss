@@ -1,0 +1,41 @@
+.formDate {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: auto;
+}
+.formDateInput {
+  appearance: none;
+  color: #1D1D1D;
+  font-family: “Helvetica”, arial, sans-serif;
+  font-size: 14px;
+  border:1px solid rgba(224, 224, 224, 1);
+  border-radius: 3px;
+  background:#ebebeb;
+  padding: 4px;
+  display: inline-block;
+  visibility: visible;
+  width: 140px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.formDateInput:focus {
+  color: #495057;
+  background-color: #FFFFFF;
+  border-color: #80BDFF;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.salesAmount {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 500;
+}
+
+.table {
+  height: auto!important;
+}

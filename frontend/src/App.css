@@ -1,0 +1,53 @@
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+#root {
+  background-color: #EDEDED;
+  min-width: 100vw;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.toolBar {
+  background-color: #F7F7F7!important;
+  color: #9D8252;
+  min-height: 84px!important;
+  img {
+    width: 150px;
+  }
+}
+
+.MuiContainer-maxWidthXl.MuiContainer-maxWidthXl {
+  max-width: 80vw;
+}
+
+.MuiDivider-root.MuiDivider-root {
+  border-color: #bfbfbf;
+}
+
+.MuiCardHeader-action {
+  display: flex!important;
+  justify-content: space-between!important;
+  margin-right: 0!important;
+  width: 100%;
+}
+
+.page-item .page-link, .page-item.disabled .page-link {
+  background-color: transparent;
+  border: none;
+  padding: 1rem;
+}
+
+.page-item.active .page-link {
+  background-color: #3e3e3e;
+}
+
+.page-link:focus {
+  box-shadow: none;
+}
+
+.MuiTablePagination-toolbar {
+  align-items: baseline!important;
+}
